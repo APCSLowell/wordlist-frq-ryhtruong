@@ -12,7 +12,7 @@ public class WordList
   {
     int num = 0;
     for(int i = 0; i < myList.size(); i++){
-      if(myList.get(i).length() == len)
+      if((String)myList.get(i).length() == len)
         num++;
     }
     return num;
